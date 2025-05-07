@@ -11,7 +11,7 @@ import io
 load_dotenv()
 
 MODEL_ID = "gemini-1.5-flash"
-api_key = "AIzaSyB61URBXFORC1D_XFGbYJaPQuQAYk8SrYc"  # Temporarily set directly
+api_key = ""  # Temporarily set directly
 
 # Debug: Print API key (only first few characters for security)
 st.write(f"API Key loaded: {api_key[:5]}...")
